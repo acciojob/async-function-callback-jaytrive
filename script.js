@@ -7,6 +7,6 @@ async function fetchData(displayMsg){
 }
 
 function displayMsg(data) {
-	output.innerHTML=JSON.stringify(data);
+	output.innerHTML=data.title;
 }
 //your JS code here. If required.
